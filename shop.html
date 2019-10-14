@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>Shop</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -20,6 +20,7 @@
 	
 	<!-- Header -->
 	
+		
 	<header class="header">
 
 		<!-- Top Bar -->
@@ -28,14 +29,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col d-flex flex-row">
-						<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="images/phone.png" alt=""></div>+91 068 005 3570</div>
-						<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="images/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
+						<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="images/phone.png" alt=""></div>+91 700 123 1123</div>
+						<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="images/mail.png" alt=""></div><a href="mailto:EML@gmail.com">eml@gmail.com</a></div>
 						<div class="top_bar_content ml-auto">
-							<div class="top_bar_menu">
-								<ul class="standard_dropdown top_bar_dropdown">
-									
-								</ul>
-							</div>
+							
 							<div class="top_bar_user">
 								<div class="user_icon"><img src="images/user.svg" alt=""></div>
 								<div><a href="#">Register</a></div>
@@ -54,7 +51,9 @@
 				<div class="row">
 
 					<!-- Logo -->
-					<div class="col-lg-2 col-sm-3 col-3 order-1">
+					<div style="padding-right: 8px;
+					padding-left: 8px;
+					"   class="col-lg-2 col-sm-3 col-3 order-1">
 						<div class="logo_container">
 							<div class="logo"><a href="#">E-Comm</a></div>
 						</div>
@@ -126,24 +125,13 @@
 						
 						<div class="main_nav_content d-flex flex-row">
 
-							<!-- Categories Menu -->
-
-							<div class="cat_menu_container">
-								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
-									<div class="cat_burger"><span></span><span></span><span></span></div>
-									<div class="cat_menu_text">categories</div>
-								</div>
-
-								
-							</div>
-
-							<!-- Main Nav Menu -->
-
+							
 							<div class="main_nav_menu ml-auto">
 								<ul class="standard_dropdown main_nav_dropdown">
 									<li><a href="home.html">Home<i class="fas fa-chevron-down"></i></a></li>
-																	<li class="hassubs">
-										<a href="shop.html">Shop<i class=""></i></a>
+								
+									<li class="hassubs">
+										<a href="shop.html">Shop<i class=></i></a>
 										
 									</li>
 									<li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
@@ -166,7 +154,8 @@
 					</div>
 				</div>
 			</div>
-		</nav>	
+		</nav>
+		
 		<!-- Menu -->
 
 		<div class="page_menu">
@@ -185,6 +174,7 @@
 								<li class="page_menu_item">
 									<a href="home.html">Home<i class="fa fa-angle-down"></i></a>
 								</li>
+								<li class="page_menu_item"><a href="shop.html">Shop<i class="fa fa-angle-down"></i></a></li>
 								
 								<li class="page_menu_item"><a href="blog.html">blog<i class="fa fa-angle-down"></i></a></li>
 								<li class="page_menu_item"><a href="contact.html">contact<i class="fa fa-angle-down"></i></a></li>
@@ -192,7 +182,7 @@
 							
 							<div class="menu_contact">
 								<div class="menu_contact_item"><div class="menu_contact_icon"><img src="images/phone_white.png" alt=""></div>+91 068 005 3570</div>
-								<div class="menu_contact_item"><div class="menu_contact_icon"><img src="images/mail_white.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
+								<div class="menu_contact_item"><div class="menu_contact_icon"><img src="images/mail_white.png" alt=""></div><a href="mailto:EML@gmail.com">EML@gmail.com</a></div>
 							</div>
 						</div>
 					</div>
@@ -214,55 +204,13 @@
 
 	<!-- Shop -->
 
-	<div class="shop">
+	<div style="padding-top: 0px;" class="shop">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
 
 					<!-- Shop Sidebar -->
-					<div class="shop_sidebar">
-						<div class="sidebar_section">
-							<div class="sidebar_title">Categories</div>
-							<ul class="sidebar_categories">
-								<li><a href="#">Mobile</a></li>
-								<li><a href="#">Mobile Cover</a></li>
-								<li><a href="#">Accessories</a></li>
-							</ul>
-						</div>
-						<div class="sidebar_section filter_by_section">
-							<div class="sidebar_title">Filter By</div>
-							<div class="sidebar_subtitle">Price</div>
-							<div class="filter_price">
-								<div id="slider-range" class="slider_range"></div>
-								<p>Range: </p>
-								<p><input type="text" id="amount" class="amount" readonly style="border:0; font-weight:bold;"></p>
-							</div>
-						</div>
-						<div class="sidebar_section">
-							<div class="sidebar_subtitle color_subtitle">Color</div>
-							<ul class="colors_list">
-								<li class="color"><a href="#" style="background: #b19c83;"></a></li>
-								<li class="color"><a href="#" style="background: #000000;"></a></li>
-								<li class="color"><a href="#" style="background: #999999;"></a></li>
-								<li class="color"><a href="#" style="background: #0e8ce4;"></a></li>
-								<li class="color"><a href="#" style="background: #df3b3b;"></a></li>
-								<li class="color"><a href="#" style="background: #ffffff; border: solid 1px #e1e1e1;"></a></li>
-							</ul>
-						</div>
-						<div class="sidebar_section">
-							<div class="sidebar_subtitle brands_subtitle">Brands</div>
-							<ul class="brands_list">
-								<li class="brand"><a href="#">Apple</a></li>
-								<li class="brand"><a href="#">Beoplay</a></li>
-								<li class="brand"><a href="#">Google</a></li>
-								<li class="brand"><a href="#">Meizu</a></li>
-								<li class="brand"><a href="#">OnePlus</a></li>
-								<li class="brand"><a href="#">Samsung</a></li>
-								<li class="brand"><a href="#">Sony</a></li>
-								<li class="brand"><a href="#">Xiaomi</a></li>
-							</ul>
-						</div>
-					</div>
+					
 
 				</div>
 
@@ -272,7 +220,7 @@
 
 					<div class="shop_content">
 						<div class="shop_bar clearfix">
-							<div class="shop_product_count"><span>186</span> products found</div>
+							
 							<div class="shop_sorting">
 								<span>Sort by:</span>
 								<ul>
@@ -621,7 +569,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="viewed_title_container">
-						<h3 class="viewed_title">Recently Viewed</h3>
+						<h3 class="viewed_title">Most Popular Products</h3>
 						<div class="viewed_nav_container">
 							<div class="viewed_nav viewed_prev"><i class="fas fa-chevron-left"></i></div>
 							<div class="viewed_nav viewed_next"><i class="fas fa-chevron-right"></i></div>
@@ -804,7 +752,6 @@
 						<div class="footer_phone">+91 068 005 3570</div>
 						<div class="footer_contact_text">
 							<p>Assam</p>
-							<p>Jorhat </p>
 						</div>
 						<div class="footer_social">
 							<ul>
@@ -875,9 +822,11 @@
 					
 					<div class="copyright_container d-flex flex-sm-row flex-column align-items-center justify-content-start">
 						<div class="copyright_content">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is  Designed by <i class="" aria-hidden="true"></i> by <a href="www.electronmedialab.in" target="_blank">ElectronMediaLab</a>
-
-</div>
+							Copyright &copy;2019 All rights reserved | E-Comm
+							<!-- This template is  Designed by <i class="" aria-hidden="true">
+							</i> <a href="http://electronmedialab.in" target="_blank">ElectronMediaLab</a> -->
+							
+							</div>
 						<div class="logos ml-sm-auto">
 							<ul class="logos_list">
 								<li><a href="#"><img src="images/logos_1.png" alt=""></a></li>
